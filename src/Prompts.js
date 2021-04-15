@@ -79,6 +79,7 @@ function Prompts(props) {
             id="newMusings"
             onChange={handleChange}
             value={userInput}
+            placeholder="Cathartic expressions go here..."
           />
 
           {/* Moods bar start. user selects a mood to include with thought musing*/}
